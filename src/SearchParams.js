@@ -15,7 +15,6 @@ const SearchParams = () => {
     requestPets();
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-
   async function requestPets() {
     const res = await fetch(
       `http://pets-v2.dev-apis.com/pets?anima=${animal}&location=${location}&breed=${breed}`
