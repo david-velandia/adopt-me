@@ -1,5 +1,5 @@
-import { createContext } from 'react';
+import { createContext } from "react";
 
-const ThemeContext = createContext(["green", function noop() { }]);
+const ThemeContext = createContext(["green", function noop() {}]);
 
 export default ThemeContext;
